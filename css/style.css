@@ -30,7 +30,7 @@ html {
     #image2 {
         width: 1200px;
         height: 800px;
-        margin-bottom: 150px;
+        margin-bottom: 50px;
     }
 
     #image3, #image4 {
@@ -129,7 +129,9 @@ html {
 }
 
 #section2 h2 {
+    text-align: center;
     font-weight: bold;
+    color: white;
 }
 
 #section2 li {
@@ -139,7 +141,7 @@ html {
 }
 
 #section3 {
-    height: 400px;
+    height: auto;
     background-image: url("../img/section_3_compress.jpg");
     background-size: 100%;
     background-position: center;
@@ -148,11 +150,19 @@ html {
 #section3 h2 {
     font-weight: bold;
     color: white;
+    text-align: center;
+    font-size: 4rem;
 }
 
 #section3 p {
-    color: white;
+    color: black;
     font-weight: bold;
+}
+
+#food_description {
+    font-size: 1.5rem;
+    background-color: rgba(255,255,255,0.75);
+    padding: 20px;
 }
 
 #card_help_container{
