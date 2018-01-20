@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Shadows+Into+Light|Source+Sans+Pro');
+
+
+html {
+    font-family: "Shadows Into Light", "Quicksand", GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+.parallax-container .parallax img {
+    display: block;
+}
+
+.parallax-container {
+    min-height: 500px;
+}
+
+#parallax_top_container {
+    height: 700px;
+}
+
+#parallax_top {
+    margin-top: 100px;
+}
+
+@media (max-width: 1200px) {
+    #top_img {
+        width: 1200px;
+        margin-bottom: 50px;
+    }
+
+    #image2 {
+        width: 1200px;
+        height: 800px;
+        margin-bottom: 150px;
+    }
+
+    #image3, #image4 {
+        width: 1200px;
+        height: 800px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #top_img {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    #image2 {
+        width: 100%;
+        margin-bottom: 150px;
+    }
+
+    #image3, #image4 {
+        margin-top: 150px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    #title {
+        font-size: 1.1rem;
+    }
+
+    .card-content {
+        font-family: Quicksand;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (min-width: 375px) {
+    #title {
+        font-size: 1.3rem;
+    }
+    .card-content {
+        font-family: Quicksand;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 675px) {
+    #title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 950px) {
+    #title {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    .card-content {
+        font-family: Quicksand;
+        font-size: 2rem;
+    }
+}
+
+#section1 {
+    background-image: url("../img/section_1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+
+}
+
+#section1 h2{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-action h3 {
+    font-family: Quicksand;
+    font-size: 1.5rem;
+}
+
+#card_container{
+    text-align: center;
+}
+
+#section2 {
+    background-image: url("../img/section_2.jpg");
+    background-size: cover;
+    height: auto;
+    background-position: center;
+    text-shadow: black;
+}
+
+#section2 h2 {
+    font-weight: bold;
+}
+
+#section2 li {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+#section3 {
+    height: 400px;
+    background-image: url("../img/section_3.png");
+    background-size: 100%;
+    background-position: center;
+}
+
+#section3 h2 {
+    font-weight: bold;
+    color: white;
+}
+
+#section3 p {
+    color: white;
+    font-weight: bold;
+}
+
+#card_help_container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card_help {
+    display: inline;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-image img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.material-icons {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.collapsible-body {
+    background-color: rgba(255,255,255,0.7);
+}
+
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: .3rem;
+    font-size: 1.25rem;
+}
