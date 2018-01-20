@@ -98,7 +98,7 @@ html {
 }
 
 #section1 {
-    background-image: url("../img/section_1.jpg");
+    background-image: url("../img/section_1_compress.jpg");
     background-size: cover;
     background-position: center;
     height: auto;
@@ -121,7 +121,7 @@ html {
 }
 
 #section2 {
-    background-image: url("../img/section_2.jpg");
+    background-image: url("../img/section_2_compress.jpg");
     background-size: cover;
     height: auto;
     background-position: center;
@@ -140,7 +140,7 @@ html {
 
 #section3 {
     height: 400px;
-    background-image: url("../img/section_3.png");
+    background-image: url("../img/section_3_compress.jpg");
     background-size: 100%;
     background-position: center;
 }
